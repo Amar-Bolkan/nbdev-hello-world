@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Amar-Bolkan.github.io',
                 'git_url': 'https://github.com/Amar-Bolkan/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': { 'nbdev_hello_world.core.add': ('core_utils.html#add', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.foo': ('core_utils.html#foo', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.say_hello': ('core_utils.html#say_hello', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.second_foo_same_cell': ( 'core_utils.html#second_foo_same_cell',
+                                                                                         'nbdev_hello_world/core.py')}}}
